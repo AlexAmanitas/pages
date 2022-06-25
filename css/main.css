@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@400;500&display=swap");
 h1,
 h2,
@@ -68,13 +69,21 @@ button {
   line-height: 27px;
 }
 
+.footer__item {
+  color: #ffca42;
+}
+
+.footer__item::marker {
+  content: "···𐤟𐤟𐤟𐤟𐤟𐤟۔۔۔";
+}
+
 .footer__item-adr {
   margin-left: 30px;
   padding-left: 30px;
 }
 
 .footer__item-adr::marker {
-  content: "Address :";
+  content: "Address :········";
   font-family: "Cardo";
   font-style: normal;
   font-weight: 400;
@@ -86,6 +95,7 @@ button {
 }
 
 .footer__link {
+  margin-left: 10px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

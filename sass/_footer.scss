@@ -21,11 +21,18 @@
 	line-height: 27px;
 }
 
+.footer__item {
+	color: #ffca42;
+	&::marker {
+		content: "···𐤟𐤟𐤟𐤟𐤟𐤟۔۔۔";
+	}
+}
+
 .footer__item-adr {
 	margin-left: 30px;
 	padding-left: 30px;
 	&::marker {
-		content: "Address :";
+		content: "Address :········";
 		font-family: "Cardo";
 		font-style: normal;
 		font-weight: 400;
@@ -39,6 +46,8 @@
 	}
 }
 .footer__link {
+	margin-left: 10px;
+
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
