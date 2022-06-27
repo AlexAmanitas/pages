@@ -9,20 +9,38 @@
 	</head>
 
 	<body>
-		<header class="hero+header">
+		<header class="hero-header">
 			<div class="container">
-				<svg class="logo" width="119" height="35"><use href="./images/sprite.svg#icon-Logo"></use></svg>
-				<ul class="nav">
-					<li class="nav__item"><a href="" class="nav__link">Home</a></li>
-					<li class="nav__item"><a href="" class="nav__link">About</a></li>
-					<li class="nav__item"><a href="" class="nav__link">Pages</a></li>
-					<li class="nav__item"><a href="" class="nav__link">Contact Us</a></li>
-				</ul>
-				<a href="" class="header__basket">
-					<svg class="logo" width="17" height="17"><use href="./images/sprite.svg#icon-basket"></use></svg>
-				</a>
-				<button class="header__btn btn" type="button">Order Today</button>
-
+				<div class="header">
+					<svg class="logo" width="119" height="35"><use href="./images/sprite.svg#icon-Logo"></use></svg>
+					<ul class="header__social-list">
+						<li class="social__item">
+							<a href="" class="social__link">
+								<svg width="17" height="17"><use href="./images/sprite.svg#icon-facebook"></use></svg>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="" class="social__link">
+								<svg width="17" height="17"><use href="./images/sprite.svg#icon-twitter"></use></svg>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="" class="social__link">
+								<svg width="17" height="17"><use href="./images/sprite.svg#icon-linkedin"></use></svg>
+							</a>
+						</li>
+					</ul>
+					<ul class="nav">
+						<li class="nav__item"><a href="" class="nav__link">Home</a></li>
+						<li class="nav__item"><a href="" class="nav__link">About</a></li>
+						<li class="nav__item"><a href="" class="nav__link">Pages</a></li>
+						<li class="nav__item"><a href="" class="nav__link">Contact Us</a></li>
+					</ul>
+					<a href="" class="header__basket">
+						<svg width="17" height="17"><use href="./images/sprite.svg#icon-basket"></use></svg>
+					</a>
+					<button class="header__btn btn" type="button">Order Today</button>
+				</div>
 				<section class="hero">
 					<div class="hero__aside">
 						<p class="hero__pretitle">Welcome to Pages!!!</p>
@@ -31,26 +49,28 @@
 							<br />
 							The Best Writer.
 						</h1>
-						<p class="hero__subtitle">We believe that reading books are essential to a healthy culture.</p>
-						<p class="hero__subtitle">They’re where authors can connect with readers.</p>
+						<p class="hero__subtitle">
+							We believe that reading books are essential to a healthy culture. They’re where authors can connect with
+							readers.
+						</p>
 						<div class="hero__btn">
 							<button class="header__btn btn" type="button">Order Today</button>
 							<button class="hero__demo-btn" type="button">Read Free Demo</button>
 						</div>
-						<ul class="book-features">
-							<l1 class="book-features__item">
-								Pages:
+						<div class="book-features">
+							<div class="book-features__item">
+								<p class="book-features__text">Pages:</p>
 								<p class="book-features__value">250pages</p>
-							</l1>
-							<l1 class="book-features__item">
-								Length:
+							</div>
+							<div class="book-features__item">
+								<p class="book-features__text">Length:</p>
 								<p class="book-features__value">10 Hours</p>
-							</l1>
-							<l1 class="book-features__item">
-								Rating:
+							</div>
+							<div class="book-features__item">
+								<p class="book-features__text">Rating:</p>
 								<p class="book-features__value">4.5/5 (305 ratings)</p>
-							</l1>
-						</ul>
+							</div>
+						</div>
 					</div>
 					<div class="hero__img">
 						<img src="./images/hero@2x.jpg" alt="The dark light book" width="592" />
@@ -67,7 +87,7 @@
 						<div class="books__img"><img src="./images/2-1-book@2x.jpg" alt="Atomic One’s" width="285" /></div>
 						<div class="books__description">
 							<h3 class="books__name">Atomic One’s</h3>
-							<b class="books__prise">$ 13.84 USD</b>
+							<b class="books__price">$ 13.84 USD</b>
 							<p class="books__about">As the book contains theoretical content as well as solved questions.</p>
 							<p class="books__property">Printed Book</p>
 							<a href="" class="books__order">Order Now</a>
@@ -77,7 +97,7 @@
 						<div class="books__img"><img src="./images/2-2-book@2x.jpg" alt="The Dark Light" width="285" /></div>
 						<div class="books__description">
 							<h3 class="books__name">The Dark Light</h3>
-							<b class="books__prise">$ 86.11 USD</b>
+							<b class="books__price">$ 86.11 USD</b>
 							<p class="books__about">As the book contains theoretical content as well as solved questions.</p>
 							<p class="books__property">Printed Book</p>
 							<a href="" class="books__order">Order Now</a>
@@ -89,38 +109,44 @@
 
 		<section class="about">
 			<div class="container">
-				<div class="about__img"><img src="./images/3-author@2x.jpg" alt="Author photo" width="545" /></div>
-				<div class="about__aside">
-					<h2 class="about__title section__title">About the Author</h2>
-					<p class="about__text">
-						We believe that bookstores are essential to a healthy culture. They’re where authors can connect with
-						readers, where we discover new writers, where children get hooked on the thrill of reading that can last a
-						lifetime.
-					</p>
-					<ul class="counter">
-						<li class="counter__item">
-							02
-							<div>Books Published</div>
-						</li>
-						<li class="counter__item">
-							4.5
-							<div>User Reviews</div>
-						</li>
-						<li class="counter__item">
-							04
-							<sdiv>Best Seller Awards</sdiv>
-						</li>
-					</ul>
-					<div class="contacts-block">
-						<img src="./images/3-qr-code@2x.jpg" alt="QR-code" width="130" />
-						<div class="contacts-block__wrap">
-							<p class="contacts-block__name">John Abraham , Ph.d</p>
-							<a href="mailto:johnabraham@gmail.com" class="contacts-block__contact contacts-block__mail">
-								Mail: johnabraham@gmail.com
-							</a>
-							<a href="tel:+21235459000" class="contacts-block__contact contacts-block__tel">
-								Phone: (+2) 123 545 9000
-							</a>
+				<div class="about__wrap">
+					<div class="about__img"><img src="./images/3-author@2x.jpg" alt="Author photo" width="525" /></div>
+					<div class="about__aside">
+						<h2 class="about__title section__title">About the Author</h2>
+						<p class="about__text">
+							We believe that bookstores are essential to a healthy culture. They’re where authors can connect with
+							readers, where we discover new writers, where children get hooked on the thrill of reading that can last a
+							lifetime.
+						</p>
+						<div class="counter">
+							<div class="counter__item">
+								02
+								<div class="counter__properties">Books Published</div>
+							</div>
+							<div class="counter__item--spliter"></div>
+							<div class="counter__item">
+								4.5
+								<div class="counter__properties">User Reviews</div>
+							</div>
+							<div class="counter__item--spliter"></div>
+							<div class="counter__item">
+								04
+								<div class="counter__properties">Best Seller Awards</div>
+							</div>
+						</div>
+						<div class="contacts-block">
+							<div class="contacts-block__img-wrap">
+								<img src="./images/3-qr-code@2x.jpg" alt="QR-code" width="130" />
+							</div>
+							<div class="contacts-block__wrap">
+								<p class="contacts-block__name">John Abraham , Ph.d</p>
+								<a href="mailto:johnabraham@gmail.com" class="contacts-block__contact contacts-block__mail">
+									Mail:&nbsp johnabraham@gmail.com
+								</a>
+								<a href="tel:+21235459000" class="contacts-block__contact contacts-block__tel">
+									Phone:&nbsp&nbsp&nbsp (+2) 123 545 9000
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -135,32 +161,44 @@
 						<img src="./images/4-1-img@2x.jpg" alt="clientlogo" width="189" />
 						<h3 class="trusted__subtitle">Amazen Corp.</h3>
 						<p class="trusted__text">
-							They has been helping readers, music lovers, and videophiles find quality material.
+							They has been helping readers, music lovers, and videophiles
+							<br />
+							find quality material.
 						</p>
 					</li>
 					<li class="trusted__item">
 						<img src="./images/4-2-img@2x.jpg" alt="clientlogo" width="189" />
 						<h3 class="trusted__subtitle">Megan Books</h3>
-						<p class="trusted__text">We help physical bookstores manage their overstock to the book inventory.</p>
+						<p class="trusted__text">
+							We help physical bookstores manage their overstock to
+							<br />
+							the book inventory.
+						</p>
 					</li>
 					<li class="trusted__item">
 						<img src="./images/4-3-img@2x.jpg" alt="clientlogo" width="189" />
 						<h3 class="trusted__subtitle">Megank</h3>
 						<p class="trusted__text">
-							Bookstore serving up the full spectrum of Black literature and wine black books.
+							Bookstore serving up the full spectrum of Black literature
+							<br />
+							and wine black books.
 						</p>
 					</li>
 					<li class="trusted__item">
 						<img src="./images/4-4-img@2x.jpg" alt="clientlogo" width="189" />
 						<h3 class="trusted__subtitle">Urban Store</h3>
-						<p class="trusted__text">We also carry the latest records, issues of all of your favorite comic books.</p>
+						<p class="trusted__text">
+							We also carry the latest records, issues of all of your favorite
+							<br />
+							comic books.
+						</p>
 					</li>
 				</ul>
 			</div>
 		</section>
 
 		<section class="get-book">
-			<div class="container">
+			<div class="container get-book__wrap">
 				<div class="get-book__aside">
 					<h2 class="get-book__title">Get Book Copy Today!</h2>
 					<p class="get-book__text">
@@ -175,32 +213,38 @@
 
 		<section class="learn">
 			<div class="container">
-				<h2 class="section__title">What Will You Learn?</h2>
-				<ul class="learn__list">
-					<li class="learn__item">
-						<div class="learn__number">1</div>
-						Use HDFS & Map Reduce for storing & analyzing data at scale.
-					</li>
-					<li class="learn__item">
-						<div class="learn__number">2</div>
-						Consume streaming data using Spark Streaming, Flink, and Storm.
-					</li>
-					<li class="learn__item">
-						<div class="learn__number">3</div>
-						Choose an appropriate data storage technology for your application
-					</li>
-					<li class="learn__item">
-						<div class="learn__number">4</div>
-						Analyze non-relational data using HBase, Cassandra, and MongoDB.
-					</li>
-				</ul>
-				<div class="learn__img"><img src="./images/6-reader@2x.jpg" alt="Reading book" width="535" /></div>
+				<h2 class="section__title learn__title">What Will You Learn?</h2>
+				<div class="learn__wrap">
+					<ul class="learn__list">
+						<li class="learn__item">
+							<div class="learn__number">01</div>
+							Use HDFS & Map Reduce for storing & analyzing data at scale.
+						</li>
+						<li class="learn__item">
+							<div class="learn__number">02</div>
+							Consume streaming data using Spark Streaming, Flink, and Storm.
+						</li>
+						<li class="learn__item">
+							<div class="learn__number">03</div>
+							Choose an
+							<br />
+							appropriate data storage technology for your application
+						</li>
+						<li class="learn__item">
+							<div class="learn__number">04</div>
+							Analyze non-
+							<br />
+							relational data using HBase, Cassandra, and MongoDB.
+						</li>
+					</ul>
+					<div class="learn__img"><img src="./images/6-reader@2x.jpg" alt="Reading book" width="535" /></div>
+				</div>
 			</div>
 		</section>
 
 		<section class="enhance">
 			<div class="container">
-				<h2 class="section__title">Enhance knowledge & Vision</h2>
+				<h2 class="section__title enhance__title">Enhance knowledge & Vision</h2>
 				<ul class="enhance__list">
 					<li class="enhance__item">
 						<a href="" class="enhance__link">
@@ -208,14 +252,14 @@
 							<p class="enhance__text">
 								You can double your knowledge by reading this ever needed book that can last a lifetime.
 							</p>
-							<ul class="book-features">
-								<l1 class="book-features__item">
-									Pages:
-									<p class="book-features__value">106pages</p>
+							<ul class="ebook-features">
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Pages:</p>
+									<p class="ebook-features__value">106pages</p>
 								</l1>
-								<l1 class="book-features__item">
-									Length:
-									<p class="book-features__value">2 Hours</p>
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Length:</p>
+									<p class="ebook-features__value">2 Hours</p>
 								</l1>
 							</ul>
 						</a>
@@ -226,32 +270,33 @@
 							<p class="enhance__text">
 								It will help to improve your life career with the perfect and needed knowledge about your life.
 							</p>
-							<ul class="book-features">
-								<l1 class="book-features__item">
-									Pages:
-									<p class="book-features__value">180pages</p>
+							<ul class="ebook-features">
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Pages:</p>
+									<p class="ebook-features__value">180pages</p>
 								</l1>
-								<l1 class="book-features__item">
-									Length:
-									<p class="book-features__value">3 Hours</p>
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Length:</p>
+									<p class="ebook-features__value">3 Hours</p>
 								</l1>
 							</ul>
 						</a>
 					</li>
+
 					<li class="enhance__item">
 						<a href="" class="enhance__link">
 							<h3 class="enhance__subtitle">Chapter-3 How They Servived</h3>
 							<p class="enhance__text">
 								We wanted to create an easy, convenient way for you to get your books & support.
 							</p>
-							<ul class="book-features">
-								<l1 class="book-features__item">
-									Pages:
-									<p class="book-features__value">250pages</p>
+							<ul class="ebook-features">
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Pages:</p>
+									<p class="ebook-features__value">250pages</p>
 								</l1>
-								<l1 class="book-features__item">
-									Length:
-									<p class="book-features__value">4 Hours</p>
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Length:</p>
+									<p class="ebook-features__value">4 Hours</p>
 								</l1>
 							</ul>
 						</a>
@@ -260,50 +305,58 @@
 						<a href="" class="enhance__link">
 							<h3 class="enhance__subtitle">Chapter-4 The End Of Romans</h3>
 							<p class="enhance__text">Promote your book via Pages shop to support your writing & reading career.</p>
-							<ul class="book-features">
-								<l1 class="book-features__item">
-									Pages:
-									<p class="book-features__value">175pages</p>
+							<ul class="ebook-features">
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Pages:</p>
+									<p class="ebook-features__value">175pages</p>
 								</l1>
-								<l1 class="book-features__item">
-									Length:
-									<p class="book-features__value">3 Hours</p>
+								<l1 class="ebook-features__item">
+									<p class="ebook-features__text">Length:</p>
+									<p class="ebook-features__value">3 Hours</p>
 								</l1>
 							</ul>
 						</a>
 					</li>
 				</ul>
 				<a href="" class="enhance__button">Start a 15-Days Free Trail</a>
-				<div class="enhance__footer">
-					<a class="enhance__footer-link" href="">Short description about each chapter</a>
+				<!-- <div class="enhance__footer"> -->
+				<p class="enhance__footer-text" href="">
+					Short description about each chapter
+					<br />
 					<a class="enhance__footer-link" href="">Have any questions?</a>
-					<a class="enhance__footer-link" href="">Contact us</a>
-				</div>
+					Contact us
+				</p>
+				<!-- </div> -->
 			</div>
 		</section>
 
 		<section class="reviews">
-			<div class="container">
-				<h2 class="section__title">
-					Words From Our
-					<br />
-					Readers
-				</h2>
-				<p class="reviews__text">
-					We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers,
-					where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.
-				</p>
-				<div class="reviews__rating">
-					<img src="./images/circle.png" alt="" width="120" />
-					(4.8/5)
+			<div class="container reviews__wrap">
+				<div class="reviews__main">
+					<h2 class="section__title reviews__title">
+						Words From Our
+						<br />
+						Readers
+					</h2>
+					<p class="reviews__text">
+						We believe that bookstores are essential to a healthy culture. They’re where authors can connect with
+						readers, where we discover new writers, where children get hooked on the thrill of reading that can last a
+						lifetime.
+					</p>
+					<div class="reviews__rating">
+						<img src="./images/circle.png" alt="" width="120" />
+						(4.8/5)
+					</div>
+					<b class="reviews__subtitle">Overall Customer Ratings</b>
 				</div>
-				<b>Overall Customer Ratings</b>
 				<ul class="customers">
 					<li class="customers__card">
 						<div class="customers__wrap">
-							<img src="./images/8-1-user@2x.png" alt="" width="85" />
-							<p class="customers__name">James Williams</p>
-							<img src="./images/circle.png" alt="" width="76" />
+							<img class="customers__picture" src="./images/8-1-user@2x.png" alt="" width="85" />
+							<div>
+								<p class="customers__name">James Williams</p>
+								<img src="./images/circle.png" alt="" width="76" />
+							</div>
 						</div>
 						<p class="customers__subtitle">“ Great Books Collections ”</p>
 						<p class="customers__text">
@@ -312,9 +365,11 @@
 					</li>
 					<li class="customers__card">
 						<div class="customers__wrap">
-							<img src="./images/8-2-user-angelina@2x.png" alt="" width="85" />
-							<p class="customers__name">Angeline Flora</p>
-							<img src="./images/circle.png" alt="" width="76" />
+							<img class="customers__picture" src="./images/8-2-user-angelina@2x.png" alt="" width="85" />
+							<div>
+								<p class="customers__name">Angeline Flora</p>
+								<img src="./images/circle.png" alt="" width="76" />
+							</div>
 						</div>
 						<p class="customers__subtitle">“ Creative Writing Skill”</p>
 						<p class="customers__text">
@@ -323,9 +378,11 @@
 					</li>
 					<li class="customers__card">
 						<div class="customers__wrap">
-							<img src="./images/8-3-user-chris@2x.png" alt="" width="85" />
-							<p class="customers__name">Chris Adams</p>
-							<img src="./images/circle.png" alt="" width="76" />
+							<img class="customers__picture" src="./images/8-3-user-chris@2x.png" alt="" width="85" />
+							<div>
+								<p class="customers__name">Chris Adams</p>
+								<img src="./images/circle.png" alt="" width="76" />
+							</div>
 						</div>
 						<p class="customers__subtitle">“ Perfect Response Author”</p>
 						<p class="customers__text">I had a question about the book and the author response was great & comfort.</p>
@@ -336,7 +393,7 @@
 
 		<section class="articles">
 			<div class="container">
-				<h2 class="section__title">Articles & Resources</h2>
+				<h2 class="section__title articles__title">Articles & Resources</h2>
 				<ul class="articles__list">
 					<li class="articles__item">
 						<img src="./images/9-1-img@2x.jpg" alt="Readers" width="420" />
@@ -376,87 +433,102 @@
 		</section>
 
 		<section class="subscribe">
-			<div class="container">
-				<h2 class="section__title">Get The Best Updates</h2>
+			<div class="container subscribe__container">
+				<h2 class="section__title subscribe__title">Get The Best Updates</h2>
 				<p class="subscribe__text">
 					Subscribe with your mail id to know the current update in book edition at your fingertip with in a minute.
 				</p>
 				<div class="subscribe__form-wrap">
-					<input type="email" placeholder="Your Email ID..." />
-					<button type="submit">Subscribe</button>
+					<input class="subscribe__input" type="email" placeholder="Your Email ID..." />
+					<button class="subscribe__button" type="submit">Subscribe</button>
 				</div>
 			</div>
 		</section>
 
-		<footer>
+		<footer class="footer">
 			<div class="container">
-				<svg class="logo" width="119" height="35"><use href="./images/sprite.svg#icon-Logo"></use></svg>
-				<ul class="network">
-					<li class="network__item">
-						<svg class="network__icon" width="10" height="16"><use href="./images/sprite.svg#icon-facebook"></use></svg>
-					</li>
-					<li class="network__item">
-						<svg class="network__icon" width="16" height="14"><use href="./images/sprite.svg#icon-twitter"></use></svg>
-					</li>
-					<li class="network__item">
-						<svg class="network__icon" width="14" height="14"><use href="./images/sprite.svg#icon-linkedin"></use></svg>
-					</li>
-					<li class="network__item">
-						<svg class="network__icon" width="17" height="18">
-							<use href="./images/sprite.svg#icon-instagram"></use>
-						</svg>
-					</li>
-				</ul>
-				<div class="footer__explore">
-					<ul class="list">
-						<li class="item"></li>
-						<li class="item"></li>
-						<li class="item"></li>
-						<li class="item"></li>
-						<li class="item"></li>
-					</ul>
-					<ul class="footer__list">
-						Explore
-						<li class="footer__item"><a href="" class="footer__link">Home</a></li>
-						<li class="footer__item"><a href="" class="footer__link">About</a></li>
-						<li class="footer__item"><a href="" class="footer__link">Articles</a></li>
-						<li class="footer__item"><a href="" class="footer__link">Our Store</a></li>
-						<li class="footer__item"><a href="" class="footer__link">Contact Us</a></li>
-					</ul>
+				<div class="footer__wrap">
+					<div class="footer__logo">
+						<svg class="logo" width="119" height="35"><use href="./images/sprite.svg#icon-Logo"></use></svg>
+						<ul class="network">
+							<li class="network__item">
+								<a href="" class="network__link">
+									<svg class="network__icon" width="10" height="16">
+										<use href="./images/sprite.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="network__item">
+								<a href="" class="network__link">
+									<svg class="network__icon" width="16" height="14">
+										<use href="./images/sprite.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="network__item">
+								<a href="" class="network__link">
+									<svg class="network__icon" width="14" height="14">
+										<use href="./images/sprite.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="network__item">
+								<a href="" class="network__link">
+									<svg class="network__icon" width="17" height="18">
+										<use href="./images/sprite.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__explore">
+						<ul class="footer__list">
+							<span class="footer__subtitle">Explore</span>
+							<li class="footer__item"><a href="" class="footer__link">Home</a></li>
+							<li class="footer__item"><a href="" class="footer__link">About</a></li>
+							<li class="footer__item"><a href="" class="footer__link">Articles</a></li>
+							<li class="footer__item"><a href="" class="footer__link">Our Store</a></li>
+							<li class="footer__item"><a href="" class="footer__link">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="footer__utility">
+						<ul class="footer__list">
+							<span class="footer__subtitle">Utility Pages</span>
+							<li class="footer__item"><a href="" class="footer__link">Style Guide</a></li>
+							<li class="footer__item"><a href="" class="footer__link">404 Not Found</a></li>
+							<li class="footer__item"><a href="" class="footer__link">Password Protected</a></li>
+							<li class="footer__item"><a href="" class="footer__link">Licenses</a></li>
+							<li class="footer__item"><a href="" class="footer__link">Changelog</a></li>
+						</ul>
+					</div>
+					<address class="footer__address">
+						<ul class="address__list">
+							<span class="footer__subtitle address__subtitle">Keep in Touch</span>
+							<li class="address__item">
+								<span class="address__atribute">Address :</span>
+								<a href="" class="footer__link">
+									24A Kingston St, Los Vegas
+									<br />
+									<span class="address__index">NC 28202, USA.</span>
+								</a>
+							</li>
+							<li class="address__item">
+								<span class="address__atribute">Mail :</span>
+								<a href="mailto:johnabraham@gmail.com" class="footer__link">support@pages.com</a>
+							</li>
+							<li class="address__item">
+								<span class="address__atribute">Phone :</span>
+								<a href="tel:+21235459000" class="footer__link">(+22) 123 - 4567 - 900</a>
+							</li>
+						</ul>
+					</address>
 				</div>
-				<div class="footer__utility">
-					<ul class="list">
-						<li class="item"></li>
-						<li class="item"></li>
-						<li class="item"></li>
-						<li class="item"></li>
-						<li class="item"></li>
-					</ul>
-					<ul class="footer__list">
-						Utility Pages
-						<li class="footer__item"><a href="" class="footer__link">Style Guide</a></li>
-						<li class="footer__item"><a href="" class="footer__link">404 Not Found</a></li>
-						<li class="footer__item"><a href="" class="footer__link">Password Protected</a></li>
-						<li class="footer__item"><a href="" class="footer__link">Licenses</a></li>
-						<li class="footer__item"><a href="" class="footer__link">Changelog</a></li>
-					</ul>
-				</div>
-				<address class="footer__address">
-					<ul class="footer__list">
-						Keep in Touch
-						<li class="footer__item-adr">
-							<a href="" class="footer__link">
-								24A Kingston St, Los Vegas
-								<br />
-								<span class="index">NC 28202, USA.</span>
-							</a>
-						</li>
-						<li class="footer__item-adr">
-							<a href="mailto:johnabraham@gmail.com" class="footer__link">support@pages.com</a>
-						</li>
-						<li class="footer__item-adr"><a href="tel:+21235459000" class="footer__link">(+22) 123 - 4567 - 900</a></li>
-					</ul>
-				</address>
+				<span class="footer__footer">
+					© Drafted by
+					<a href="" class="link">VictorFlow</a>
+					- Powered by
+					<a href="" class="link">Webflow</a>
+				</span>
 			</div>
 		</footer>
 	</body>

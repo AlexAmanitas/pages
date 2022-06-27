@@ -1,0 +1,150 @@
+.enhance {
+	padding: 120px 0 130px;
+	background: #f5f8fc;
+}
+.container {
+}
+
+.enhance__title {
+	&::after {
+		content: "";
+		display: block;
+		width: 50px;
+		height: 3px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto;
+		background-color: $accent-color;
+	}
+}
+
+.section__title {
+}
+.enhance__list {
+	margin-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.enhance__item {
+	// height: 242px;
+	width: 635px;
+
+	&:nth-child(n + 3) {
+		margin-top: 40px;
+	}
+
+	&:nth-child(even) {
+		margin-left: 30px;
+	}
+}
+.enhance__link {
+	// display: block;
+	padding: 42px 70px 35px 40px;
+	background-color: $white-color;
+}
+.enhance__subtitle {
+	font-family: "Cardo";
+	font-size: 24px;
+	line-height: 29px;
+	color: #1b3764;
+}
+
+.enhance__text {
+	margin-top: 28px;
+
+	font-family: "Inter";
+	font-size: 19px;
+	line-height: 32px;
+	color: #969aa0;
+}
+
+.ebook-features {
+	display: flex;
+	align-items: center;
+	margin-top: 11px;
+}
+
+.ebook-features__item {
+	display: flex;
+	align-items: baseline;
+
+	&:not(:last-child) {
+		margin-right: 45px;
+	}
+}
+
+.ebook-features__text {
+	display: flex;
+	align-items: center;
+	font-family: "Cardo";
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: 0.48px;
+	color: $dark-font-site-color;
+
+	&::before {
+		content: "";
+		margin-right: 10px;
+		width: 16px;
+		height: 16px;
+		border-radius: 50%;
+		background-color: $accent-color;
+	}
+}
+
+.ebook-features__value {
+	margin-left: 17px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.6;
+	color: #969aa0;
+}
+
+.enhance__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 60px auto 34px;
+	height: 76px;
+	width: 429px;
+	background-color: $accent-color;
+
+	font-family: "Cardo";
+	font-size: 19px;
+	line-height: 28px;
+
+	letter-spacing: 0.57px;
+	text-transform: capitalize;
+
+	color: #1b3764;
+}
+
+.enhance__footer {
+}
+
+.enhance__footer-text {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	/* identical to box height, or 158% */
+
+	text-align: center;
+
+	color: #969aa0;
+}
+
+.enhance__footer-link {
+	display: inline;
+	font-family: "Inter";
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.19px;
+	color: #1b3764;
+}

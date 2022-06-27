@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@400;500&display=swap");
+
+$accent-color: #ffca42;
+$nav-color: #f6f8fc;
+$white-color: #ffffff;
+$second-white-color: #b4c7e7;
+$second-dark-color: #969aa0;
+$dark-font-site-color: #1b3764;
+$background-color: #1b3764;
+
 h1,
 h2,
 h3,
@@ -26,11 +35,11 @@ body {
 	font-family: "Inter", sans-serif;
 	font-family: "Cardo", sans-serif;
 	margin-left: auto;
-	font-size: 42px;
+	// font-size: 42px;
 }
 
 .container {
-	width: 1440px;
+	width: 1300px;
 	padding: 0 70px;
 	margin-right: auto;
 	margin-left: auto;
@@ -40,6 +49,7 @@ button {
 	margin: 0;
 	padding: 0;
 	background-color: transparent;
+	border-color: transparent;
 }
 
 .section {

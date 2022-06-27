@@ -1,0 +1,259 @@
+.hero-header {
+	background-color: $background-color;
+	color: $white-color;
+}
+.header {
+	display: flex;
+	align-items: center;
+	height: 109px;
+}
+.logo {
+	margin-right: 35px;
+}
+
+.header__social-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 260px;
+}
+
+.social__item {
+	&:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+.social__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 44px;
+	height: 44px;
+	background-color: $white-color;
+	border: 1px solid white;
+
+	transition: background-color 300ms, fill 300ms;
+
+	&:hover,
+	&:focus {
+		background-color: $background-color;
+		fill: $accent-color;
+		border: 1px solid $accent-color;
+	}
+}
+.nav {
+	display: flex;
+	align-items: center;
+	// margin-right: 16px;
+}
+.nav__item {
+	&:not(:last-child) {
+		margin-right: 48px;
+	}
+
+	&:last-child {
+		margin-left: 13px;
+	}
+}
+.nav__link {
+	padding-top: 40px;
+	padding-bottom: 43px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.5;
+	letter-spacing: 0.17px;
+	color: $nav-color;
+	transition: color 300ms;
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
+}
+
+.header__basket {
+	padding: 36px;
+	margin-right: 17px;
+	// margin-left: auto;
+
+	&:hover {
+		fill: $accent-color;
+	}
+}
+.header__btn {
+	// margin-left: auto;
+}
+.btn {
+	width: 222px;
+	height: 66px;
+	background-color: $accent-color;
+	color: $dark-font-site-color;
+
+	font-family: "Cardo";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 1.5;
+	letter-spacing: 0.57px;
+	text-transform: capitalize;
+
+	cursor: pointer;
+	transition: color 300ms, background-color 300ms;
+
+	&:hover,
+	&:focus {
+		color: $white-color;
+		background-color: $background-color;
+		border: 1px solid $second-white-color;
+	}
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 22px;
+}
+.hero__aside {
+}
+.hero__pretitle {
+	display: flex;
+	align-items: center;
+	margin-top: 147px;
+
+	font-family: "Cardo";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 1.71;
+	letter-spacing: 1.2px;
+	text-transform: capitalize;
+
+	color: $white-color;
+
+	&::before {
+		content: "";
+
+		width: 35px;
+		height: 2px;
+		margin-right: 14px;
+
+		background-color: $accent-color;
+	}
+}
+.hero__title {
+	margin-top: 15px;
+
+	font-family: "Cardo";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 1.22;
+	letter-spacing: 1.3px;
+
+	color: $white-color;
+}
+
+.hero__subtitle {
+	width: 562px;
+	margin-top: 24px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.58;
+	color: $second-white-color;
+}
+
+.hero__btn {
+	display: flex;
+	margin-top: 30px;
+}
+
+.hero__demo-btn {
+	margin-left: 51px;
+
+	font-family: "Cardo";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 1.6;
+	letter-spacing: 0.38px;
+	text-transform: capitalize;
+
+	cursor: pointer;
+	color: $second-white-color;
+
+	transition: color 300ms;
+
+	&::after {
+		content: "";
+		width: 100%;
+		height: 2px;
+		display: block;
+		background-color: $second-white-color;
+
+		transition: background-color 300ms;
+	}
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
+
+	&:hover::after {
+		background-color: $accent-color;
+	}
+}
+
+.book-features {
+	display: flex;
+	margin-top: 45px;
+}
+
+.book-features__item {
+	&:not(:last-child) {
+		margin-right: 60px;
+	}
+}
+
+.book-features__text {
+	display: flex;
+	align-items: center;
+
+	font-family: "Cardo";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: 0.48px;
+	color: $white-color;
+
+	&::before {
+		content: "";
+		margin-right: 10px;
+		width: 16px;
+		height: 16px;
+		border-radius: 50%;
+		background-color: $accent-color;
+	}
+}
+
+.book-features__value {
+	margin-top: 14px;
+	margin-left: 22px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.6;
+	color: $second-white-color;
+}
+
+.hero__img {
+}

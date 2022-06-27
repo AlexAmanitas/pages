@@ -1,0 +1,123 @@
+.reviews {
+	padding: 120px 0 130px;
+}
+
+.reviews__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reviews__main {
+	height: 445px;
+	width: 468px;
+
+	padding: 94.5px 30px 94.5px 0;
+}
+
+.reviews__title {
+	text-align: left;
+	&::after {
+		content: "";
+		display: block;
+		width: 50px;
+		height: 3px;
+		margin-top: 25px;
+
+		background-color: $accent-color;
+	}
+}
+
+.reviews__text {
+	margin-top: 35px;
+	font-family: "Inter";
+	font-size: 19px;
+	line-height: 34px;
+
+	color: #969aa0;
+}
+
+.reviews__rating {
+	display: flex;
+	align-items: center;
+	font-family: "Cardo";
+	font-size: 22px;
+	line-height: 26px;
+	color: #1b3764;
+	margin-top: 15px;
+
+	& img {
+		margin-right: 17px;
+	}
+}
+
+.reviews__subtitle {
+	display: block;
+	margin-top: 17px;
+
+	font-family: "Inter";
+	font-size: 18px;
+	line-height: 28px;
+	color: #1b3764;
+}
+
+.customers {
+	display: flex;
+	flex-wrap: wrap;
+	width: 802px;
+	margin-left: 30px;
+	padding: 10px 0 20px;
+}
+
+.customers__card {
+	height: 238px;
+	width: 306px;
+	padding: 30px 40px 24px 35px;
+	background-color: $background-color;
+
+	&:last-child {
+		margin-top: 20px;
+	}
+
+	&:first-child {
+		margin-right: 20px;
+	}
+
+	&:nth-child(2) {
+		position: relative;
+		top: 155px;
+	}
+}
+
+.customers__wrap {
+	display: flex;
+}
+
+.customers__picture {
+	margin-right: 20px;
+}
+
+.customers__name {
+	font-family: "Cardo";
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+.customers__subtitle {
+	margin-top: 20px;
+
+	font-family: "Cardo";
+	font-size: 22px;
+	line-height: 33px;
+	color: #ffffff;
+}
+
+.customers__text {
+	margin-top: 13px;
+
+	font-family: "Inter";
+	font-size: 18px;
+	line-height: 29px;
+	color: #b4c7e7;
+}

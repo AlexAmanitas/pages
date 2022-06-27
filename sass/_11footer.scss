@@ -1,0 +1,149 @@
+.footer {
+	padding: 92px 0 25px;
+	background: #1b3764;
+}
+
+.footer__wrap {
+	display: flex;
+}
+
+.network {
+	display: flex;
+	margin-top: 20px;
+}
+
+.network__item {
+	&:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+
+.network__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+	width: 55px;
+	outline: 2px solid $accent-color;
+	color: $white-color;
+	transition: color 300ms, background-color 300ms, outline-color 300ms;
+	&:hover,
+	&:focus {
+		color: $dark-font-site-color;
+		background-color: $white-color;
+		outline-color: $dark-font-site-color;
+	}
+}
+
+.network__icon {
+	fill: currentColor;
+}
+
+.footer__explore {
+	margin-left: 94px;
+}
+
+.footer__list {
+}
+
+.footer__subtitle {
+	display: block;
+	margin-bottom: 30px;
+	margin-left: -15px;
+
+	font-family: "Cardo";
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.384px;
+	color: #ffffff;
+}
+
+.footer__item {
+	color: #ffca42;
+
+	&:not(:last-child) {
+		margin-bottom: 9px;
+	}
+
+	&::marker {
+		content: "···";
+	}
+}
+
+.footer__link {
+	margin-left: 10px;
+	font-family: "Inter";
+	font-size: 17px;
+	line-height: 27px;
+	color: #b4c7e7;
+}
+
+.footer__utility {
+	margin-left: 150px;
+}
+
+.footer__address {
+	margin-left: 140px;
+}
+
+.address__list {
+}
+
+.address__subtitle {
+	margin-left: 0;
+}
+
+.address__item {
+	display: flex;
+
+	&:not(:last-child) {
+		margin-bottom: 28px;
+	}
+
+	&:nth-child(3) .footer__link {
+		margin-left: 32px;
+	}
+
+	&:last-child .footer__link {
+		margin-left: 20px;
+	}
+}
+
+.address__atribute {
+	margin-right: 20px;
+
+	font-family: "Cardo";
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.36px;
+	color: #ffffff;
+}
+
+.address__index {
+	font-family: "Inter";
+	font-size: 18px;
+	line-height: 27px;
+	color: #b4c7e7;
+}
+
+.footer__footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 88px;
+	font-family: "Inter";
+	font-size: 17px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.17px;
+	color: #b4c7e7;
+}
+.link {
+	margin: 0 4px;
+
+	font-family: "Inter";
+	font-size: 17px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.17px;
+	color: #ffffff;
+}

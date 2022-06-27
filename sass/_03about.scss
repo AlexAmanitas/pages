@@ -1,0 +1,118 @@
+.about {
+	padding: 140px 0;
+	background: #f5f8fc;
+}
+
+.about__wrap {
+	display: flex;
+}
+
+.about__img {
+	height: 612px;
+	width: 525px;
+
+	border: 10px solid $accent-color;
+}
+
+.about__img img {
+	position: relative;
+	bottom: 50px;
+	right: 49px;
+	width: 545px;
+}
+
+.about__aside {
+	padding: 40px 0 26px 150px;
+}
+
+.about__title {
+	text-align: left;
+
+	&::after {
+		content: "";
+		display: block;
+		width: 50px;
+		height: 3px;
+		margin-top: 25px;
+		background-color: $accent-color;
+	}
+}
+
+.about__text {
+	width: 559px;
+	margin-top: 33px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 34px;
+	color: #969aa0;
+}
+
+.counter {
+	display: flex;
+	margin-top: 35px;
+}
+
+.counter__item {
+	width: 181px;
+	height: 98px;
+
+	font-family: "Cardo";
+	font-size: 55px;
+	line-height: 77px;
+	color: #1b3764;
+
+	&:not(:first-child) {
+		margin-left: 26px;
+	}
+}
+
+.counter__item--spliter {
+	width: 2px;
+	height: 98px;
+	background-color: $accent-color;
+}
+
+.counter__properties {
+	font-family: "Inter";
+	font-size: 17px;
+	line-height: 22px;
+	color: #969aa0;
+}
+
+.contacts-block {
+	margin-top: 55px;
+	display: flex;
+	width: 444px;
+
+	padding: 16px 20px;
+	background-color: $background-color;
+}
+
+.contacts-block__img-wrap {
+	width: 130px;
+}
+
+.contacts-block__wrap {
+	padding-left: 40px;
+}
+
+.contacts-block__name {
+	margin-top: 18px;
+
+	font-family: "Cardo";
+	font-size: 22px;
+	line-height: 26px;
+	color: #ffca42;
+}
+
+.contacts-block__contact {
+	margin-top: 10px;
+	font-family: "Inter";
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.19px;
+	color: #b4c7e7;
+}
